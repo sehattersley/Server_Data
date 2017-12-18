@@ -11,4 +11,5 @@ sudo apt-get install smartmontools
 
 I run the script as a conjob every 5 minutes:
 sudo contab -e
+
 */5 * * * * /path to your python script
