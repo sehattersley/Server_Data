@@ -1,6 +1,7 @@
 # Server_Data
 Python script to capture data about your server and send it to emoncms.
 
+
 You need to install lm-sensors and smartmontools on your linux machine.
 
 sudo apt-get install lm-sensors
@@ -13,6 +14,7 @@ sudo apt-get install smartmontools
 
 
 I run the script as a conjob every 5 minutes:
+
 sudo contab -e
 
 */5 * * * * /path to your python script
